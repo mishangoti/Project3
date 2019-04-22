@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .jumbotron {
+            padding: 20px;
+            margin: 0px;
+        }
+
+        .no-padding {
+            padding: 0px;
+        }
+
+        input,
+        select {
+            height: 25px!important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container container-fluid" style="padding: 20px;">
+        <div class="jumbotron" style="background:#EEE" style="margin: 0px;">
+            <div class="row">
+                <div class="logo" style="margin-left: 20px;">
+                    <img src="http://www.grupoproductivo.com.ar/img/goo.jpg" style="width: 110px;max-height: 100px;">
+                </div>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+                    <table class="table">
+                        <thead>
+                            <th>Fullname</th>
+                            <th>Email</th>
+                            <th>Mobile</th>
+                            <th>City</th>
+                        </thead>
+                        <tbody>
+                            <% if(typeof all_employee != 'undefined') { %>
+                            <% all_employee.forEach(function(val){ %>
+                                <tr>
+                                    <td><%= val.fullname %></td>
+                                    <td><%= val.email %></td>
+                                    <td><%= val.mobile %></td>
+                                    <td><%= val.city %></td>
+                                </tr>
+                                <% }); %>
+                            <% } %> 
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

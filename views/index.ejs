@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <title>Login With Third Party</title>
+    <style>
+        .head {
+            background-color: rgb(238, 238, 238);
+            height: 100px;
+            text-align: start;
+            margin-bottom: 20px;
+        }
+        .head h2 {
+            padding: 30px 30px;
+        }
+        .card {
+            padding: 5px;
+            border-radius: 5%;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <h2>Login With Third Party</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="text-center card">
+                    <div>
+                        <h3>Instagram</h3>
+                    </div>
+                    <div>
+                        <a class="btn btn-danger btn-sm" href="/login/instagram_login">1. Signup With Instagram</a>
+                        <br>
+                        <small>NPM -> <a href="https://www.npmjs.com/package/social-oauth-client">Social-oauth-client</a></small>
+                        <hr>
+                    </div>
+                    <div>
+                        <a class="btn btn-danger btn-sm" href="/instagram_authorize">2. Signup With Instagram</a>
+                        <br>
+                        <small>NPM -> <a href="https://www.npmjs.com/package/social-oauth-client">Social-oauth-client</a></small>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="text-center card">
+                    <div>
+                        <h3>Stackowerflow</h3>
+                    </div>
+                    <div>
+                        <a class="btn btn-info btn-sm" href="/stackowerflow/questions">Questions From Stackoverflow</a>
+                        <br>
+                        <small>NPM -> <a href="https://www.npmjs.com/package/stackexchange">stackexchange</a></small>
+                        <hr>
+                    </div>
+                    <div>
+                        <a class="btn btn-info btn-sm" href="/stackowerflow/allquestions">Questions From All Sites</a>
+                        <br>
+                        <small>NPM -> <a href="https://www.npmjs.com/package/stackexchange">stackexchange</a></small>
+                        <hr>
+                    </div>
+                    <div>
+                        <a class="btn btn-info btn-sm" href="/stackowerflow/allusers">All Users</a>
+                        <br>
+                        <small>NPM -> <a href="https://www.npmjs.com/package/stackexchange">stackexchange</a></small>
+                        <hr>
+                    </div>
+                </div>
+                <!-- <a class="btn btn-info btn-sm" href="/stackowerflow/jobs">Jobs</a> -->
+            </div>
+            <div class="col-md-3">
+                <div class="text-center card">
+                    <div>
+                        <h3>Facebook</h3>
+                    </div>
+                    <div>
+                        <a class="btn btn-primary btn-sm" href="/login/facebook_authorize">Signup With Facebook</a>
+                        <br>
+                        <small>NPM -> <a href="https://www.npmjs.com/package/social-oauth-client">Social-oauth-client</a></small>
+                        <hr>
+                    </div>
+                    <div>
+                        <!-- <a class="btn btn-primary btn-sm" href="/facebookdata/wallpost">Get Wallpost</a>
+                        <br>
+                        <small>NPM -> <a href="https://www.npmjs.com/package/fbgraph">fbgraph</a></small>
+                        <hr> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="text-center card">
+                    <div>
+                        <h3>Github</h3>
+                    </div>
+                    <div>
+                        <a class="btn btn-primary btn-sm" href="/login/github_authorize">Signup With Github</a>
+                        <br>
+                        <small>NPM -> <a href="https://www.npmjs.com/package/social-oauth-client">Social-oauth-client</a></small>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="text-center card">
+                    <div>
+                        <h3>Google</h3>
+                    </div>
+                    <div>
+                        <a class="btn btn-primary btn-sm" href="/login/google_authorize">Signup With Google</a>
+                        <br>
+                        <small>NPM -> <a href="https://www.npmjs.com/package/social-oauth-client">Social-oauth-client</a></small>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

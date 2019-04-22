@@ -1,0 +1,39 @@
+{
+  "name": "project3",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "DZ_MODE=developlent && nodemon ./bin/www",
+    "start_prod": "DZ_MODE=production && nodemon ./bin/www"
+  },
+  "repository": {
+    "git": "https://github.com/slobdog/instagram-auth.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^7.0.0",
+    "dynamic-html-pdf": "^1.0.0",
+    "ejs": "^2.6.1",
+    "express": "~4.16.0",
+    "express-ejs-layouts": "^2.5.0",
+    "express-handlebars": "^3.0.2",
+    "express-session": "^1.15.6",
+    "express-validation": "^1.0.2",
+    "express-validator": "^5.3.1",
+    "fbgraph": "^1.4.4",
+    "handlebars": "^4.1.1",
+    "http-errors": "~1.6.2",
+    "mongoose": "^5.5.0",
+    "morgan": "~1.9.0",
+    "node-instagram": "^4.3.0",
+    "passport-instagram": "^1.0.0",
+    "social-oauth-client": "^0.1.6",
+    "stackexchange": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
